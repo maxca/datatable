@@ -1,0 +1,25 @@
+{
+    "name": "samark/datatable",
+    "description": "For generate json data table format ,auto seraching base on laravel framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samark Chaisanguan",
+            "email": "samarkchsngn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support" : ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+          "src/"
+        ],
+        "psr-0": {
+          "Samark\\Datatable\\": "src/"
+        }
+    }
+}
